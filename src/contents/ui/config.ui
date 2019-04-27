@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>KWin::StickyWindowSnappingConfigForm</class>
+ <widget class="QWidget" name="KWin::StickyWindowSnappingConfigForm">
+  <property name="windowTitle">
+   <string>Sticky Window Snapping</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+      <widget class="QSlider" name="slider_top">
+       <property name="maximum">
+        <number>64</number>
+       </property>
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+      </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>slider_top</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>kcfg_top</receiver>
+   <slot>setValue(int)</slot>
+  </connection>
+ </connections>
+</ui>

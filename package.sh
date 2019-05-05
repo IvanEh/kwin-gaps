@@ -1,0 +1,1 @@
+zip -r kde-gaps.kwinscript src

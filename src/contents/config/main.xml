@@ -6,19 +6,23 @@
   <kcfgfile name=""/>
   <group name="">
     <entry name="top" type="string">
-      <default>0</default>
+      <default>8</default>
     </entry>
     <entry name="left" type="string">
-      <default>0</default>
+      <default>8</default>
     </entry>
     <entry name="right" type="string">
-      <default>0</default>
+      <default>8</default>
     </entry>
     <entry name="bottom" type="string">
-      <default>0</default>
+      <default>8</default>
     </entry>
-    <entry name="topPanel" type="string">
-      <default>10</default>
+    <entry name="center" type="string">
+      <default>8</default>
+    </entry>
+    <entry name="topPanelMargin" type="string">
+      <default>27</default>
     </entry>
   </group>
+
 </kcfg>
